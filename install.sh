@@ -26,6 +26,10 @@ echo '    return "Hello, Darwinz thirsty world!"'
 export FLASK_APP=hello.py
 flask run
 
+# so the above export is permanent
+echo 'FLASK_APP=hello.py'>>.env
+
+
 # * Serving Flask app "hello.py"
 # * Environment: production
 #   WARNING: Do not use the development server in a production environment.
