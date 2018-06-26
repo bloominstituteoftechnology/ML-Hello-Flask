@@ -35,3 +35,6 @@ flask run
 # 127.0.0.1 - - [26/Jun/2018 11:26:11] "GET / HTTP/1.1" 200 -
 # 127.0.0.1 - - [26/Jun/2018 11:26:12] "GET /robots.txt HTTP/1.1" 404 -
 # 127.0.0.1 - - [26/Jun/2018 11:26:14] "GET /favicon.ico HTTP/1.1" 404 -
+
+# you can set host and port like this
+flask run -h 127.0.0.1 -p 5000
